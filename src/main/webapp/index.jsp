@@ -9,5 +9,19 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
+
+
+<br>
+<%int n = 6;%>
+<%
+    for (int i = 0; i < n; i++)
+    {
+
+%>
+<a href="test<%=(i+1)%>.html">test<%=(i + 1)%>.html</a>
+<br>
+<%
+    }
+%>
 </body>
 </html>
